@@ -1,0 +1,260 @@
+
+style.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #071c2f;
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 25px 80px;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #0e3241;
+    font-size: larger;
+   width: auto;
+}
+
+.navbar a:hover{
+    color: aqua;
+  
+}
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    
+  
+}
+
+.logo span {
+    color: #00b4ff;
+}
+
+.navbar nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px;
+}
+.navbar h2{
+     margin-right: 770px; 
+}
+
+.h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    padding-top: 80px;
+    height: 600px;
+}
+
+.h2 {
+    max-width: 550px;
+}
+
+.h2 h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.h2 h2 {
+    font-size: 28px;
+    color: #00b4ff;
+    margin-bottom: 20px;
+}
+
+.h2 p {
+    color: #cfd8dc;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+
+
+.buttons a:hover{
+    background-color: bisque;
+    color: brown;
+}
+.aa {
+    padding: 12px 28px;
+ 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    
+}
+.buttons {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+    max-width: 70px;
+    min-height: auto;
+    
+}
+.me {
+    background: #00b4ff;
+    color: #071c2f;
+}
+
+.talk{
+    border: 1px solid #00b4ff;
+    color: #00b4ff;
+}
+
+
+
+
+
+.image 
+{
+    max-width: 420px;
+    border-radius: 10px;
+}
+
+
+
+ .hero
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+.h2{
+        margin-top: 40px;
+    }
+
+.navbar 
+    {
+        padding: 20px 40px;
+    }
+
+    .touch{
+    display: flex;
+     gap: 50;
+     flex-direction: column;
+    width: 100%;
+    }
+    
+    .form
+    {
+    display: flex;
+     flex-direction: column;
+     max-width: 400px;
+     text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 300px;
+    }
+
+    
+    
+.socials 
+{
+    display: inline-flex;
+    align-items: left;
+    justify-content: left;
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+    color: #00b4ff;
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    gap: 20px;
+    margin-left: 40px;  
+    margin-top: 20px;
+}
+.touch h2{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.form input{
+    height: 40px;
+   max-width: 400px;
+    background-color: #0b2a45;
+     color: #fff;
+     font-size: 23px;
+     width: 100%;
+}
+.form textarea{
+    background-color: #0b2a45;
+    color: #fff;
+     font-size: 15px;
+          width: 100%;
+}
+.form
+{
+   font: 1.2em sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 500px;
+
+}
+
+.contact-row {
+    display: flex;                  
+    justify-content: space-between; 
+      gap: 80px;  
+}
+
+
+.info 
+    {
+        width: 70%;
+        padding-right: 20px;
+        margin: 20px;
+    }
+
+.form 
+{
+    width: 40%;
+}
+.email {
+ background-color: #0b2a45;   
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+    max-width: 300px;
+ 
+  
+     
+
+}
+.address {
+    background-color: #0b2a45;   
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+     max-width: 300px;
+      
+}
+
+.Contact {
+    background-color: #0b2a45;   
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 15px;
+     max-width: 300px;
+      
+}
+.buttons
+{
+background-color: aqua;
+}
