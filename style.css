@@ -337,3 +337,12 @@ background-color: aqua;
     background: #1e73e8;
     border-radius: 10px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+}
