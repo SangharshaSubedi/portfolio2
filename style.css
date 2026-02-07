@@ -5,8 +5,12 @@ style.css
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    zoom: 20%;
 }
-
+body {
+    margin: 0;
+     padding-top: 0px;
+}
 body {
     background: #071c2f;
     color: #fff;
@@ -16,16 +20,17 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 25px 80px;
+    padding: 30px 400px;
     position: fixed;
     justify-content: space-between;
     background-color: #0e3241;
     font-size: larger;
-   width: auto;
+   width: 100%;
+   color: #e6eded;
 }
 
 .navbar a:hover{
-    color: aqua;
+    color: rgb(234, 243, 243);
   
 }
 .logo {
@@ -40,13 +45,14 @@ body {
 }
 
 .navbar nav a {
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
     color: #ccc;
     font-size: 15px;
 }
 .navbar h2{
-     margin-right: 770px; 
+     margin-right: 100px; 
+     margin-left: 10px;
 }
 
 .h1 {
@@ -257,4 +263,77 @@ body {
 .buttons
 {
 background-color: aqua;
+}
+
+.status-list {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+
+.status-item {
+    margin-bottom: 60px;
+}
+
+
+.badge {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.ongoing {
+    color: #d4a017; 
+    
+}
+
+.completed {
+    color: #4ee756; /
+}
+
+.status-item h3 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.status-item p {
+    color: #efe7e7;
+    font-size: 14px;
+    margin: 0;
+}
+.status-list{
+    border: 1px solid #ccc; 
+    padding: 15px 40px;      
+    display: inline-block;  
+    border-radius: 20px;     
+   
+}
+.touch
+{
+ text-align: center;
+    justify-content: center;
+}
+.hee a {
+    color: rgba(250, 245, 246, 0.93);
+  }
+  .hoo a 
+  {
+     color: rgba(250, 245, 246, 0.93);
+  }
+  .line {
+    width: 320px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    margin: 6px 0 15px;
+    overflow: hidden;
+}
+
+.line span {
+    display: block;
+    height: 100%;
+    background: #1e73e8;
+    border-radius: 10px;
 }
